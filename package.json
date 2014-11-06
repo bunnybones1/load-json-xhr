@@ -1,0 +1,29 @@
+{
+  "name": "load-json-xhr",
+  "version": "1.0.0",
+  "description": "Load json in the browser.",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Tomasz Dysinski",
+    "email": "oz@bunnybones.com",
+    "url": "https://github.com/bunnybones1"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "beefy test.js --live --open"
+  },
+  "keywords": [
+    "json",
+    "xhr"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bunnybones1/load-json-xhr.git"
+  },
+  "homepage": "https://github.com/bunnybones1/load-json-xhr",
+  "bugs": {
+    "url": "https://github.com/bunnybones1/load-json-xhr/issues"
+  }
+}
