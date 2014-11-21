@@ -1,6 +1,6 @@
 {
   "name": "load-json-xhr",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Load json in the browser.",
   "main": "index.js",
   "license": "MIT",
@@ -9,14 +9,23 @@
     "email": "oz@bunnybones.com",
     "url": "https://github.com/bunnybones1"
   },
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "xhr": "^1.17.0"
+  },
+  "devDependencies": {
+    "tape": "^3.0.3"
+  },
   "scripts": {
-    "test": "beefy test.js --live --open"
+    "test": "beefy test.js --open"
   },
   "keywords": [
     "json",
-    "xhr"
+    "xhr",
+    "xml",
+    "http",
+    "request",
+    "XMLHttpRequest",
+    "getJSON"
   ],
   "repository": {
     "type": "git",
