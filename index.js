@@ -21,11 +21,13 @@ module.exports = function getJSON(opt, cb) {
     if (jsonResponse) { 
       cb(null, body);
     } else {
+      var data;
       try {
-        cb(null, JSON.parse(body));
+        data = JSON.parse(body);
       } catch (e) {
         cb(new Error('cannot parse json: ' + e));
       }
+      if(data) cb(null, data);
     }
   })
 }
