@@ -1,6 +1,6 @@
 {
   "name": "load-json-xhr",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Load json in the browser.",
   "main": "index.js",
   "license": "MIT",
