@@ -8,8 +8,8 @@ module.exports = function getJSON(opt, cb) {
   else if (!opt)
     opt = { };
 
-  if (!opt.headers)
-    opt.headers = { "Content-Type": "application/json" };
+  // if (!opt.headers)
+  //   opt.headers = { "Content-Type": "application/json" };
 
   var jsonResponse = /^json$/i.test(opt.responseType);
   return xhr(opt, function(err, res, body) {
